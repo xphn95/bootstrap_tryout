@@ -1,0 +1,22 @@
+
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+  .my-card-height {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-card-height {
+    height: 24rem;
+  }
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 50px;
+}
